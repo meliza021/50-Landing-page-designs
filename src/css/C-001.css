@@ -4,3 +4,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+}
+.inicio_1
+{
+    width: 145;
+    height:610;
+
+}
+.inicio_1 h1 {
+    color: var(--color-1);
+    font-size: 41px;
+    text-align: center;
+    line-height: 55px;
+    margin: 40px 0px 10px 0px ;
+    font-family: "Bold";
+}
+main{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+}
+.incio_2{
+    background-color: aquamarine;
+    width: 607px;
+    height: 108;
+}
+
