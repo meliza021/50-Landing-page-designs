@@ -10,3 +10,7 @@
     font-family: "Bold";
     src: url(../stora/font/Metropoliss/Metropolis-Bold.otf);
 }
+@font-face {
+    font-family: "Ravenir-roman";
+    src: url(../stora/font/avenir-roman_freefontdownload_org/avenir-roman.ttf);
+}
