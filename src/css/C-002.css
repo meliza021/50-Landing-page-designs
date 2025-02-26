@@ -6,7 +6,7 @@
 }
 /************header***************/
 header{
-    /*background-color: aqua;*/
+    background-color: transparent;
 
 }
 .encabezado h1{
@@ -62,9 +62,19 @@ section{
     padding: 0px 0px;
 }
 .segundaImagen img {
-    width: 340px; 
-    height: 350px; 
+    width: 330px; 
+    height: 340px; 
     object-fit: cover; 
     margin: -90px 0px 0px 500px;    
 }
 /********************************/
+/*************************main********************/
+main{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 20px 0px 0px 0px;
+    margin: 20px 320px 0px 0px;
+    font-size: 25px;
+}
