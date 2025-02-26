@@ -11,46 +11,49 @@ header{
 }
 .encabezado h1{
     /*background-color: red;*/
-    font-family: 'Avenir';
+    font-family: "venir-heavy";
     font-size: 43px;
     line-height: 50px;
-    margin: 49px 0px 0px 0px;
-    padding: 0px 145px;
+    margin: 80px 0px 0px 0px;
+    padding: 0px 150px;
+
 
 }
 .encabezado img{
     /*background-color: red;*/
     display: flex;
     flex-direction: row-reverse;
-    width: 300px;
-    height: 300px;
-    margin: -150px 0px 0px 530px;
+    width: 280px;
+    height: 330px;
+    margin: -190px 0px 0px 500px;
     padding: 0px 0px;
 }
 .encabezado p{
     /*background-color: beige;*/
-    font-family: 'Avenir';
-    font-size: 20px;
+    font-family: 'avenir-roman';
+    font-size: 18px;
     line-height: 25px;
-    margin: -280px 0px 0px 0px;
-    padding: 0px 145px;
+    margin: -270px 0px 0px 0px;
+    padding: 0px 150px;
+    color: var(--color-3);
 
 } 
 .encabezado button
 {
     background-color:#000000 ;
-    color: white;
-    font-family: 'Avenir';
-    font-size: 20px;
-    line-height: 25px;
+    color: #FFFFFF ;
+    font-family: 'avenir-roman';
+    font-size: 12px;
+    line-height: 10px;
     padding: 10px 20px;
     border-radius: 16px;
-    width: 157px;
+    width: 120px;
     height: 50px;
-    margin: 24px 0px 0px 141px;
+    margin: 21px 0px 0px 145px;
+
 }
 section{
-    width: 3000px;
+    width: 300px;
     height: 300px;
 }
 
@@ -63,32 +66,78 @@ section{
 }
 .segundaImagen img {
     width: 330px; 
-    height: 340px; 
+    height: 330px; 
     object-fit: cover; 
-    margin: -90px 0px 0px 500px;    
+    margin: -80px 0px 0px 470px;    
 }
-/********************************/
+/*************************************************/
 /*************************main********************/
 main{
     background-color: #F5F5F5;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    padding: 40px 0px 0px 0px;
-    margin: 20px 320px 0px 0px;
+    padding: 70px 0px 0px 0px;
+    margin: 0px 0px 0px -20px;
     font-size: 25px;
+
 }
+main p:nth-child(1){
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0px 0px 0px 35px;
+    padding: 0px 0px;
+    opacity: 0.25;
+    font-family: "venir-heavy"
+}
+main p:nth-child(2){
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0px 0px 0px 3px;
+    padding: 0px 0px;
+    opacity: 0.25;
+    font-family: "venir-heavy"
+}
+main p:nth-child(3){
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0px 290px 0px 0px;
+    padding: 0px 0px;
+    opacity: 0.25;
+    font-family: "venir-heavy"
+}
+/*******************footer***************************/
 footer img{
     width: 310px;
     height: 310px;
     margin: -30px 0px 0px 100px;
     padding: 40px 10px;
+    font-family: "venir-heavy";
+}
+footer img:nth-child(1){
+    width: 320px;
+    height: 320px;
+    margin: -30px 0px 0px 140px;
+    padding: 40px 10px;
+    font-family: "venir-heavy";
+    color: #40252525;
 }
 
 footer img:nth-child(2){
-    width: 310px;
-    height: 310px;
-    margin: -30px 0px 0px 40px;
+    width: 320px;
+    height: 320px;
+    margin: -50px 0px 0px 6px;
     padding: 40px 10px;
+    font-family: "venir-heavy";
+    color: #40252525;
 }
+footer img:nth-child(3){
+    width: 320px;
+    height: 320px;
+    margin: -30px 0px 0px 6px;
+    padding: 40px 10px;
+    font-family: "venir-heavy";
+    color: #40252525;
+}
+/****************************************************/
 
