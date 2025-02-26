@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/************header***************/
 header{
     /*background-color: aqua;*/
 
@@ -14,17 +14,27 @@ header{
     font-family: 'Avenir';
     font-size: 43px;
     line-height: 50px;
-    margin: 50px 0px 0px 0px;
+    margin: 49px 0px 0px 0px;
     padding: 0px 90px;
 
+}
+.encabezado img{
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 300px;
+    height: 300px;
+    margin: -150px 0px 0px 500px;
+    padding: 0px 0px;
 }
 .encabezado p{
     /*background-color: beige;*/
     font-family: 'Avenir';
     font-size: 20px;
     line-height: 25px;
-    margin: 20px 0px 0px 0px;
+    margin: -120px 0px 0px 0px;
     padding: 0px 90px;
+
 } 
 .encabezado button
 {
@@ -38,5 +48,22 @@ header{
     width: 157px;
     height: 50px;
     margin: 24px 0px 0px 88px;
-
 }
+section{
+    width: 3000px;
+    height: 300px;
+}
+
+.segundaImagen{
+    width: 300px;
+    display: flex;
+    height: 250px;
+    margin: -150px 0px 0px 400px;
+    padding: 0px 0px;
+}
+.segundaImagen img {
+    width: 300px; 
+    height: 350px; 
+    object-fit: cover; 
+}
+/********************************/
