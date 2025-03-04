@@ -34,3 +34,49 @@
     top: 80px;
     left: 450px;
 }
+.div_espiral{
+    display: flex;
+    position: absolute;
+    left: 80px;
+    padding-bottom: 50px;
+}
+.div_superior{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 950px;
+}
+.div_medio{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 615px;
+}
+.div_bajo{
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 280px;
+}
+.div_estrella{
+    display: flex;
+    position: absolute;
+    top: 345px;
+    left: 490px;
+}
+.div_estrella2{
+    display: flex;
+    position: absolute;
+    top: 520px;
+    left: 975px;
+}
+.div_caja{
+    font-size: 25px;
+    width: 50%;
+    gap: 30px;
+    /* background-color: blue; */
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 610px;
+}
