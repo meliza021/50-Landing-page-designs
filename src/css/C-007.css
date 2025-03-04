@@ -64,3 +64,36 @@ body {
 .image img{
     height: 368px;
 }
+.text_container{
+    width: 95%;
+    height: 130px;
+    position: absolute;
+    top: 729px;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* background-color: springgreen; */
+}
+
+.item{
+    border-radius: 18px;
+    justify-content: center;
+    background: linear-gradient(var(--color-1) 0%, var(--color-2))
+}
+.item h1{
+    color: var(--color-3);
+    font-size: 25px;
+    font-weight: 300;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.item p{
+    line-height: 20px;
+    color: var(--color-3);
+    font-weight: 300;
+    font-size: 16.99px;
+    padding-left: 5%;
+    padding-top: 2%;
+}
