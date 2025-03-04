@@ -1,4 +1,25 @@
 :root{
-    --color-1: #252525;
+    --color-1: #eeeeee29;
+    --color-2: #00000073;
+    --color-3: #252525e0;
+    --color-4: #FEC3C7;
+    --color-5: #9AD7F3;
+    --color-6: #6BDFDA;
+    --color-7: #2F2F2F;
+    --color-8: #FFFFFF;
+    --color-9: #252525;
+    
+    
 
+
+}
+
+@font-face {
+    font-family: "heavy";
+    src: url(/sotrage/fonts/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "heavy2";
+    src: url(/sotrage/fonts/poppins/Poppins-Regular.ttf);
 }
