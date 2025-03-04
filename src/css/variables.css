@@ -1,11 +1,16 @@
 :root{
-    --color-1: #eeeeee29;
-    --color-2: #00000073;
-    --color-3: #252525e0;
-    --color-4: #FFFFFF;
+    --color-1: #252525;
 }
 
 @font-face {
-    font-family: "heavy";
-    src: url(/storage/font/avenir\ -\ copia/heavy);
+    font-family: "Roboto-ExtraBold";
+    src: url(../storage/fonts/Roboto/static/Roboto-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(../stora/font/Metropoliss/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: "Ravenir-roman";
+    src: url(../stora/font/avenir-roman_freefontdownload_org/avenir-roman.ttf);
 }
