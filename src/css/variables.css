@@ -1,12 +1,24 @@
 :root{
 <<<<<<< HEAD
+    --color-1: #eee;
+    --color-2: #363830;
+    --color-4: #c8cccf;
+    --color-3: #97a3a3;
+    --color-4: #c8cccf;
+
+=======
+<<<<<<< HEAD
     --color-1: #eeeeee29;
     --color-2: #00000073;
     --color-3: #252525e0;
+>>>>>>> main
 }
 
 @font-face {
     font-family: "heavy";
+<<<<<<< HEAD
+    src: url(/storage/fonts/avenir/AvenirLTStd-Heavy.otf);
+=======
     src: url(/storage/font/avenir\ -\ copia/heavy);
 =======
     --color-1: #252525;
@@ -23,5 +35,6 @@
 @font-face {
     font-family: "Ravenir-roman";
     src: url(../stora/font/avenir-roman_freefontdownload_org/avenir-roman.ttf);
+>>>>>>> main
 >>>>>>> main
 }
