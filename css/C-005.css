@@ -51,3 +51,46 @@ body {
     border-radius: 18px;
     background-color: #252525;
 }
+.content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    top: 500px;
+    /* background-color: blue; */
+    padding-left: 60%;
+}
+
+
+.a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.a p{
+    font-size: 25px;
+    color: #252525c7;
+}
+
+.b p{
+    font-size: 25px;
+    color: #252525c7;
+
+}
+
+.a h2{
+    font-size: 38;
+    color: #25252579;
+}
+.b h2{
+    font-size: 38;
+    color: #25252579;}
