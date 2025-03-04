@@ -1,4 +1,10 @@
 :root{
-    --color-1: #252525;
+    --color-1: #eeeeee29;
+    --color-2: #00000073;
+    --color-3: #252525e0;
+}
 
+@font-face {
+    font-family: "heavy";
+    src: url(/storage/font/avenir\ -\ copia/heavy);
 }
