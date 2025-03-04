@@ -1,82 +1,132 @@
-@import url(variables.css);
-*{
+@import url('/css/variables.css');
 
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.div_menu{
-    width: 40%;
-    margin: 50px;
-    /* background-color: red; */
-    padding: 15px
+body {
+    /* font-family: "heavy", sans-serif; */
+    /* background-color: var(--color-7); */
 }
-.div_menu h1{
-    font-size: 50px;
+
+.content{ 
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 140px;
+    left: 495px;
+    width: 25%;
+    align-items: center;
+    /* background-image: linear-gradient(  to right, #ee5f5a2f, #b3cfdd6e, #b3cfdd80); */
+
 }
-.div_menu p{
-    font-size: 25px;
-    padding-top: 15px;
-    padding-bottom: 30px;
+.content h1{
+    font-family: "heavy";
+    text-align: center;
+    font-size: 100px;
+    font-weight: 100;
 }
-.div_menu button{
-    width: 35%;
-    background-color: #252525;
-    color: white;
-    height: 50px;
-    border-radius: 40px;
+.content p{
+    line-height: 28px;
     font-size: 20px;
+    font-family: "heavy";
+    text-align: center  ;
 }
-.div_logo{
-    display: flex;
-    position: absolute;
-    top: 80px;
-    left: 450px;
-}
-.div_espiral{
-    display: flex;
-    position: absolute;
-    left: 80px;
-    padding-bottom: 50px;
-}
-.div_superior{
-    display: flex;
-    position: absolute;
-    top: 60px;
-    left: 950px;
-}
-.div_medio{
-    display: flex;
-    position: absolute;
-    top: 250px;
-    left: 615px;
-}
-.div_bajo{
-    display: flex;
+
+.content button{
+    font-family: "heavy";
+    background-color: var(--color-7);
+    color: var(--color-8);
+    font-size: 17px;
     position: absolute;
     top: 480px;
-    left: 280px;
+    left: 90px;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
 }
-.div_estrella{
+
+
+.n1 img{
+    top: 400px;
+    left: 50px;
     display: flex;
     position: absolute;
-    top: 345px;
-    left: 490px;
+    height: auto;
+    width: 25%;
 }
-.div_estrella2{
+
+.n2 img{
+    top: 30px;
+    left: 870px;
     display: flex;
     position: absolute;
-    top: 520px;
-    left: 975px;
+    height: auto;
+    width: 25%;
+    
 }
-.div_caja{
-    font-size: 25px;
-    width: 50%;
-    gap: 30px;
+
+.text1{
     /* background-color: blue; */
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     position: absolute;
-    top: 800px;
-    left: 610px;
+    top: 30px;
+    left: 50px;
+    width: 31%;
 }
+
+.text1 h1{
+ 
+}
+
+.text1 p{
+    font-size: 20px;
+    font-family: "heavy";
+}
+
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 700px;
+    left: 870px;
+
+}
+
+.text2 p{
+    /* background-color: blue; */
+    font-size: 20px;
+    font-family: "heavy";
+    width: 99%;
+}
+
+.deco1{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+.deco2{
+    position: absolute;
+    top: 200px;
+    left: 210px;
+}
+.deco3{
+    position: absolute;
+    top: 370px;
+    left: 850px;
+}
+.deco4{
+    position: absolute;
+    top: 500px;
+    left: 1050px;
+
+}
+
