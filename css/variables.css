@@ -1,20 +1,7 @@
 :root{
     --color-1: #eee;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     --color-2: #252525;
-=======
-    --color-2: #252525;
-=======
-<<<<<<< HEAD
-=======
-    --color-2: #252525;
->>>>>>> main
->>>>>>> main
->>>>>>> main
 }
-
 @font-face {
     font-family: "heavy";
     src: url(../storage/font/avenir-heavy_freefontdownload_org/avenir-heavy.ttf);
