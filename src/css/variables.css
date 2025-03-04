@@ -2,3 +2,7 @@
     --color-1: #252525;
 
 }
+@font-face {
+    font-family: "avenir heavy";
+    src: url(../storage/fonts/avenir-heavy.ttf);
+}
