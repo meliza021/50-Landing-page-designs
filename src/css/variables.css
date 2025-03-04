@@ -1,5 +1,9 @@
 :root{
 <<<<<<< HEAD
+    --color-1: #252525;
+    --color-2: #f2f2f2;
+=======
+<<<<<<< HEAD
     --color-1: #eeeeee29;
     --color-2: #00000073;
     --color-3: #252525e0;
@@ -9,6 +13,7 @@
     --color-7: #2F2F2F;
     --color-8: #FFFFFF;
     --color-9: #252525;
+>>>>>>> main
 }
 @font-face {
     font-family: "heavy";
