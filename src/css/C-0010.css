@@ -1,0 +1,16 @@
+@import url(/css/variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: absolute;
+    top: 170px;
+    left: 110px;
+}
+body {
+    font-family: "heavy", sans-serif;
+    background-color: var(--color-7);
