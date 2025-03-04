@@ -1,0 +1,13 @@
+@import url('/css/varialbles.css');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div_menu{
+    /* background-color: blue; */
+    width: 50%;
+    margin-left: 63px;
+    margin-top: 80px;
+}
