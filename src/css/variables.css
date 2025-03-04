@@ -1,21 +1,16 @@
 :root{
     --color-1: #252525;
-    --color-2: rgba(37, 37, 37, 0.8);
-    --color-3: #252525CC;
-    --color-4: rgba(37, 37, 37, 0.25);
-    --color-5: #40252525;
+}
 
-
+@font-face {
+    font-family: "Roboto-ExtraBold";
+    src: url(../storage/fonts/Roboto/static/Roboto-ExtraBold.ttf);
 }
 @font-face {
-    font-family: 'Avenir';
-    src: url(../storage/fonts/avenir-heavy.ttf);
+    font-family: "Bold";
+    src: url(../stora/font/Metropoliss/Metropolis-Bold.otf);
 }
 @font-face {
-    font-family: "venir-heavy";
-    src: url(../storage/fonts/avenir-heavy.ttf);
-}
-@font-face {
-    font-family: 'avenir-roman';
-    src: url(../storage/fonts/avenir-roman.ttf);
+    font-family: "Ravenir-roman";
+    src: url(../stora/font/avenir-roman_freefontdownload_org/avenir-roman.ttf);
 }
