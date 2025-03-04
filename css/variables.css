@@ -1,0 +1,8 @@
+:root{
+    --color-1: #eee;
+}
+
+@font-face {
+    font-family: "heavy";
+    src: url(../storage/font/avenir-heavy_freefontdownload_org/avenir-heavy.ttf);
+}
