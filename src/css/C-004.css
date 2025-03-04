@@ -1,0 +1,46 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "avenir heavy";
+}
+
+
+title{
+    font-size: 4rem;
+    display: flex;
+    justify-content: start;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 100px;
+    font-family:  "avenir heavy";
+    
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 70px;
+
+}
+
+.card{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color : black;
+}
+
+.card p{
+    color: rgb(158, 158, 158);
+}
+
+.number{
+    font-size: 2rem;
+    color: rgb(158, 158, 158);
+}
