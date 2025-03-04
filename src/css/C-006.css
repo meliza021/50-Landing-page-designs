@@ -40,3 +40,32 @@ header{
     background-color: black;
     font-size: 25px; margin-right: 20px;
 }
+.div_button2{
+    margin-left: 20px;
+    border-radius: 15px;
+    height: 60px;
+    width: 220px;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 25px;
+}
+.div_img{
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    position: absolute;
+    left: 620px;
+    top: 40px;
+}
+.div_table{
+    font-size: 19px;
+    margin-top: 80px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 40px;
+    width: 45%;
+    border: 1px solid black;
+    gap: 55px;
+}
