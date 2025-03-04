@@ -13,3 +13,30 @@ header{
     margin: 40px;
     width: 8%;
 }
+.div_txt{
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    width: 45%;
+    /* background-color: red; */
+    margin: 40px;
+}
+.div_txt h1{
+    padding-left: 15px;
+    font-size: 50px;
+}
+.div_txt p{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.div_button{
+    margin-left: 20px;
+    color:  #FFFFFF;
+    border-radius: 15px;
+    height: 60px;
+    width: 220px;
+    background-color: black;
+    font-size: 25px; margin-right: 20px;
+}
