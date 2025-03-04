@@ -1,4 +1,13 @@
 :root{
-    --color-1: #252525;
+    --color-1: #eee;
+    --color-2: #363830;
+    --color-4: #c8cccf;
+    --color-3: #97a3a3;
+    --color-4: #c8cccf;
 
+}
+
+@font-face {
+    font-family: "heavy";
+    src: url(/storage/fonts/avenir/AvenirLTStd-Heavy.otf);
 }
