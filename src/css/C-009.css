@@ -1,0 +1,70 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "heavy";
+    background-color: hsl(240, 0%, 54%);
+    background-color: hsl(202, 4%, 64%) ;
+}
+.div_menu{
+    margin-top: 65px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    /* background-color: blue; */
+    width: 60%;
+    height: 380px;
+}
+.div_menu h1{
+    font-size: 85px;
+    font-weight: 1000;
+}
+.div_menu p{
+    font-size: 25px;
+}
+.div_menu button{
+    font-size: 20px;
+    color: white;
+    background-color: #363830;
+    width: 180px;
+    height: 60px;
+    border-radius: 45px;
+    margin-top: 20px;
+}
+.div_img1{
+    z-index: -1;
+    left: 700px;
+    top: 0px;
+    display: flex;
+    position: absolute;
+}
+.div_img{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    margin-left: 60px;
+}
+.div_cuadro{
+    padding: 20px;
+    align-items: center;
+    height: 250px;
+    top: 75%;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-left: 400px;
+    gap: 15px;
+    width: 850px;
+    border-radius: 120px;
+    background-color: rgba(212, 208, 208, 0.459); /* Fondo semi-transparente (negro con 50% de opacidad) */
+    backdrop-filter: blur(15px); /* Aplica desenfoque al fondo detrás de la caja */
+}
+.div_cuadro img{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
