@@ -1,5 +1,38 @@
 :root{
-<<<<<<< HEAD
+    --color-1: #eeeeee29;
+    --color-2: #00000073;
+    --color-3: #252525e0;
+    --color-1: #252525;
+    --color-2: #f2f2f2;
+    --color-1: #eeeeee29;
+    --color-2: #00000073;
+    --color-3: #252525e0;
+    --color-4: #FEC3C7;
+    --color-5: #9AD7F3;
+    --color-6: #6BDFDA;
+    --color-7: #2F2F2F;
+    --color-8: #FFFFFF;
+    --color-9: #252525;
+}
+@font-face {
+    font-family: "heavy";
+    src: url(/sotrage/fonts/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "heavy2";
+    src: url(/sotrage/fonts/poppins/Poppins-Regular.ttf);
+    --color-1: #eeeeeed7;
+    --color-2: #00000073;
+    --color-3: #252525e0;
+    --color-4: #AB2706;
+    --color-5: #FFFFFF;
+    --color-6: #E5B94B;
+    --color-1: #eee;
+    --color-2: #363830;
+    --color-4: #c8cccf;
+    --color-3: #97a3a3;
+    --color-4: #c8cccf;
     --color-1: #eeeeee29;
     --color-2: #00000073;
     --color-3: #252525e0;
@@ -8,7 +41,8 @@
 @font-face {
     font-family: "heavy";
     src: url(/storage/font/avenir\ -\ copia/heavy);
-=======
+    src: url(/storage/fonts/avenir/AvenirLTStd-Heavy.otf);
+    src: url(/storage/font/avenir\ -\ copia/heavy);
     --color-1: #252525;
 }
 
@@ -23,5 +57,4 @@
 @font-face {
     font-family: "Ravenir-roman";
     src: url(../stora/font/avenir-roman_freefontdownload_org/avenir-roman.ttf);
->>>>>>> main
 }
