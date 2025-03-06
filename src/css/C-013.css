@@ -1,0 +1,132 @@
+@import url('/css/variables.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "heavy", sans-serif; */
+    /* background-color: var(--color-7); */
+}
+
+.content{ 
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 140px;
+    left: 495px;
+    width: 25%;
+    align-items: center;
+    /* background-image: linear-gradient(  to right, #ee5f5a2f, #b3cfdd6e, #b3cfdd80); */
+
+}
+.content h1{
+    font-family: "heavy";
+    text-align: center;
+    font-size: 100px;
+    font-weight: 100;
+}
+.content p{
+    line-height: 28px;
+    font-size: 20px;
+    font-family: "heavy";
+    text-align: center  ;
+}
+
+.content button{
+    font-family: "heavy";
+    background-color: var(--color-7);
+    color: var(--color-8);
+    font-size: 17px;
+    position: absolute;
+    top: 480px;
+    left: 90px;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+}
+
+
+.n1 img{
+    top: 400px;
+    left: 50px;
+    display: flex;
+    position: absolute;
+    height: auto;
+    width: 25%;
+}
+
+.n2 img{
+    top: 30px;
+    left: 870px;
+    display: flex;
+    position: absolute;
+    height: auto;
+    width: 25%;
+    
+}
+
+.text1{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 31%;
+}
+
+.text1 h1{
+ 
+}
+
+.text1 p{
+    font-size: 20px;
+    font-family: "heavy";
+}
+
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 700px;
+    left: 870px;
+
+}
+
+.text2 p{
+    /* background-color: blue; */
+    font-size: 20px;
+    font-family: "heavy";
+    width: 99%;
+}
+
+.deco1{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+.deco2{
+    position: absolute;
+    top: 200px;
+    left: 210px;
+}
+.deco3{
+    position: absolute;
+    top: 370px;
+    left: 850px;
+}
+.deco4{
+    position: absolute;
+    top: 500px;
+    left: 1050px;
+
+}
+

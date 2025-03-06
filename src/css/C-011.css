@@ -1,0 +1,76 @@
+@import url('/css/varialbles.css');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div_menu{
+    /* background-color: blue; */
+    width: 50%;
+    margin-left: 63px;
+    margin-top: 80px;
+}
+.div_menu h1{
+    font-size: 60px;
+}
+.div_menu p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.div_menu button{
+    margin-top: 30px;
+    width: 30%;
+    height: 55px;
+    background-color: #252525;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.img1 img{
+    position: absolute;
+    top: 70px;
+    left: 760px;
+    display: flex;
+    width: 22%;
+    height: auto;
+
+}
+
+.img2 img{
+    position: absolute;
+    top: 200px;
+    left: 960px;
+    display: flex;
+    width: 22%;
+    height: auto;
+
+}
+
+.caja{
+    color: white;
+    background-color: #252525;
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 250px;
+    align-items: center;
+    padding: 80px;
+    left: 63px;
+    gap: 150px;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-bottom: 50px;    
+}
+.caja h1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    /* background-color: aqua; */
+}
+.caja p{
+    font-size: 18px;
+}
+.caja img{
+    padding-top: 40px;
+}
