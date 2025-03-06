@@ -24,20 +24,6 @@
 @font-face {
     font-family: "heavy2";
     src: url(/sotrage/fonts/poppins/Poppins-Regular.ttf);
-    --color-1: #eeeeeed7;
-    --color-2: #00000073;
-    --color-3: #252525e0;
-    --color-4: #AB2706;
-    --color-5: #FFFFFF;
-    --color-6: #E5B94B;
-    --color-1: #eee;
-    --color-2: #363830;
-    --color-4: #c8cccf;
-    --color-3: #97a3a3;
-    --color-4: #c8cccf;
-    --color-1: #eeeeee29;
-    --color-2: #00000073;
-    --color-3: #252525e0;
 }
 
 @font-face {
