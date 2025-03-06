@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-/************header***************/
 header{
     background-color: transparent;
 
@@ -73,7 +72,6 @@ section{
 /*************************************************/
 /*************************main********************/
 main{
-    background-color: #F5F5F5;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
