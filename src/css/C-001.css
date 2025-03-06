@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-/****************header****************/
 header{
     display: flex;
     flex-direction: column;
@@ -25,8 +24,6 @@ header{
     margin: 30px 0px 10px 0px ;
     font-family: "Bold";
 }
-/************************************************/
-/****************main****************/
 main{
     display: flex;
     flex-direction: column;
@@ -63,8 +60,6 @@ main{
     justify-content: center;
     transform: rotateY(500px);
 }
-/***************************************/
-/****************footer****************/
 footer{
     text-align: center;
     justify-content: center;
@@ -78,4 +73,3 @@ img{
     height: 280px;
     margin: 0px 10px 10px 5px;
 }
-/**********************************/
