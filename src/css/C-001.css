@@ -18,7 +18,7 @@ header{
 
 }
 .inicio_1 h1 {
-    color: var(--color-1);
+    color: black;
     font-size: 41px;
     text-align: center;
     line-height: 55px;
